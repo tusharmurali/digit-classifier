@@ -95,10 +95,28 @@ body {
 }
 
 .top-prediction .prediction-bar {
-  background: #2980b9;
+  background: #00b894;
 }
 
 .top-prediction .prediction-number {
-  color: #2980b9;
+  color: #00b894;
   font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px; /* Slightly above the bottom */
+  left: 50%;
+  transform: translateX(-50%); /* Centers the footer horizontally */
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+  font-size: 20px; /* Larger icon size */
+  text-decoration: none;
+}
+
+footer a:hover {
+  opacity: 0.8; /* Slight fade on hover */
 }

@@ -15,9 +15,9 @@ const sess = new onnx.InferenceSession();
 const loadingModelPromise = sess.loadModel("./digit_recognition_model.onnx");
 
 // Add 'Draw a number here!' to the canvas.
-ctx.lineWidth = 28;
+ctx.lineWidth = 24;
 ctx.lineJoin = "round";
-ctx.font = "28px sans-serif";
+ctx.font = "24px sans-serif";
 ctx.textAlign = "center";
 ctx.textBaseline = "middle";
 ctx.fillStyle = "#dedede";
