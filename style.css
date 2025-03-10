@@ -10,6 +10,22 @@ html {
   box-sizing: border-box;
 }
 
+header {
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
 body {
   align-items: center;
   background: #050505;
