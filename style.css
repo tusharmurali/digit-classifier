@@ -129,9 +129,13 @@ footer {
 
 footer a {
   color: white;
-  font-size: 20px; /* Larger icon size */
+  font-size: 16px; /* Larger icon size */
   text-decoration: none;
 }
+
+footer i {
+  font-size: 20px;
+  }
 
 footer a:hover {
   opacity: 0.8; /* Slight fade on hover */
